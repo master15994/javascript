@@ -1,15 +1,15 @@
 
-const human = [
-{name:'Alex',age:23,},
+// const human = [
+// {name:'Alex',age:23,},
 
-{name:'Sasha', age:46,},
+// {name:'Sasha', age:46,},
 
-{name:'Max',age:28,},
+// {name:'Max',age:28,},
 
-{name:'Kate',age:19,},
+// {name:'Kate',age:19,},
 
-{name:'Anna',age:55,},
-];
+// {name:'Anna',age:55,},
+// ];
 
 
 

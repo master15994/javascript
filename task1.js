@@ -1,20 +1,20 @@
-let fruits = [
-  {
-    name: 'Apple',
-    id: 1,
-   price: 10,
-  },
-  {
-    name: 'Orange',
-    id: 2,
-    price: 20,
-  },
-  {
-    name: 'Grape',
-    id: 3,
-    price: 30,
-  },
-];
+// let fruits = [
+//   {
+//     name: 'Apple',
+//     id: 1,
+//    price: 10,
+//   },
+//   {
+//     name: 'Orange',
+//     id: 2,
+//     price: 20,
+//   },
+//   {
+//     name: 'Grape',
+//     id: 3,
+//     price: 30,
+//   },
+// ];
 
 // const fruitsName = fruits.map(fruits => fruits.name);
 // console.log(fruitsName);
