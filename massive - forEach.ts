@@ -113,7 +113,7 @@
 //     }
 // });
 
-x
+
 // const numbers = [1, 2, 3, 4, 4 ,6]
 // let sum=0;
 // numbers.forEach(function(number) {

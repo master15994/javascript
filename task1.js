@@ -40,8 +40,8 @@
 // fruits.forEach((fruit) =>{fruit.price += 10});
 // console.log(fruits);
 
-fruits.forEach((fruit) => { fruit.id +1});
-console.log(fruits);
+// fruits.forEach((fruit) => { fruit.id +1});
+// console.log(fruits);
 
 
 

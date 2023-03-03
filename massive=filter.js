@@ -1,22 +1,9 @@
 
 
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+;
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
-
-
-// const minus1 = numbers.map(a => a -1);
-// console.log(minus1);
-
-// const plus1 = numbers.map (a =>a +1);
-// console.log(plus1);
-
-// let sum=0;
-
-// numbers.forEach(function(a) {
-//     sum += a;
-// });
-// console.log(sum);
 
 // const equal6= numbers.filter (a => a  >6);
 // console.log(equal6);
