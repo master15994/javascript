@@ -1,3 +1,28 @@
+
+// const cars = ['Honda', 'Audi', 'Mers', 'Gelik', 'BWV'];
+
+// let obj = { ...cars };
+// console.log(cars);
+// console.log (obj);
+
+let nums = [1,2,1,2,3,4,5,7,5,3,1,3,5,5,5,5,2,2,,3,];
+
+// let divide = nums.reduce (( x,y ) => x/y);
+// console.log(divide);
+
+// let multi = nums.reduce(( x,y) => x*y);
+// console.log(multi);
+
+
+// let sum = nums.reduce((x,y) => x+y);
+// console.log(sum);
+
+// let minus = nums.reduce((x,y) => x-y);
+// console.log(minus);
+
+
+
+
 // let fruits = [
 //   {
 //     name: 'Apple',

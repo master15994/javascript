@@ -1,79 +1,108 @@
-// ------------------------------- МЕТОД ForEach------------------------
+               //* ------------------------------- МЕТОД ForEach------------------------
 
 
-
-
-
-// losers.forEach(function(a,index) {
-//   if (index===1) {
-//     console.log(`${a.name} ${a.surname} ${a.age}`);
-//   }
-// });
-
-// losers.forEach(function (a) {
-//   console.log(`${a.name} ${a.surname} ${a.age}`);
-// });
-
-
-
-// Создайте массив объектов, каждый объект должен содержать информацию о пользователе (имя, фамилия, возраст). 
-// Используя метод forEach, выведите на экран информацию о пользователе в формате "имя фамилия (возраст лет)".
-
-
-
-
-
-
-
-
+                       // *  ---------------------- TASK ONE ----------------------
 
 // Создайте массив строк с названиями городов. Используя метод forEach, отфильтруйте все города, 
 // название которых содержит более 6 букв, и выведите их на экран
 
-// const towns = ['Moscow', 'St. Petersburg', 'Novosibirsk', 'Kazan', 'Ekaterinburg', 'Krasnodar'];
+// * const towns = ['Moscow', 'St. Petersburg', 'Novosibirsk', 'Kazan', 'Ekaterinburg', 'Krasnodar'];
 
+// * --------------------- НАЗВАНИЕ ГОРОДОВ БОЛЬШЕ 3 БУКВ --------------------
+
+// towns.forEach (a => {
+//     if(a.length >3) {
+//         console.log(a);}
+//     });
+
+// * --------------------- НАЗВАНИЕ ГОРОДОВ БОЛЬШЕ 6 БУКВ --------------------
+
+// towns.forEach (a => {
+//     if(a.length >6) {
+//         console.log(a); }
+// });
+
+// * --------------------- НАЗВАНИЕ ГОРОДОВ БОЛЬШЕ 9 БУКВ --------------------
 // towns.forEach(city=> {
 //   if(city.length > 9){
 //     console.log(city);
 //   }
 // });
 
-// cities.forEach(city => {
-//   if (city.length > 2) {
-//     console.log(city);
-//   }
+// * --------------------- НАЗВАНИЕ ГОРОДОВ БОЛЬШЕ 12 БУКВ --------------------
+//  towns.forEach (a =>{
+//     if(a.length >12){
+//         console.log(a);
+        
+//     }
 // });
 
 
 
-
-
-
-
-// Создайте массив строк с названиями цветов. Используя метод forEach, 
-// создайте новый массив, в котором каждый элемент будет содержать название цвета и его длину в символах.
+                    // *  ---------------------- TASK TWO ----------------------
 
 
 // Создайте массив объектов, каждый объект должен содержать информацию о фильме (название, режиссер, год выпуска). 
 // Используя метод forEach, выведите на экран информацию о каждом фильме в формате "название (режиссер, год выпуска)".
-// const films = [
-//      {
-//     title: "Зеленая миля",
-//     director: "Фрэнк Дарабонт",
-//     year: 1999
-//   },
-//   {
-//     title: "Начало",
-//     director: "Кристофер Нолан",
-//     year: 2010
-//   },
-//   {
-//     title: "Побег из Шоушенка",
-//     director: "Фрэнк Дарабонт",
-//     year: 1994
-//   }
-// ]
 
+// * const films = [
+// *     {title: "Зеленая миля",
+// *    director: "Фрэнк Дарабонт",
+// *     year: 1999},
+
+// *  {title: "Начало",
+// *     director: "Кристофер Нолан",
+// *     year: 2010},
+// *   {title: "Побег из Шоушенка",
+// *     director: "Фрэнк Дарабонт",
+//  *    year: 1994}
+
+//*  ];
+
+              //* -------------------------- СПИСОК ВСЕХ ФИЛЬМОВ -----------------------
+//  films.forEach (function(a) {
+//     console.log(`${a.title} ${a.director } ${a.year}`);
+    
+//  });
+
+
+
+
+             // * ------------------------- ПЕРВЫЙ ФИЛЬМ ------------------------
+// films.forEach (function(a,index) {
+// if (index===0) {
+//     console.log(`${a.title} ${a.director} ${a.year}`);
+// }
+// });
+
+
+          //* ---------------------------- ВТОРОЙ ФИЛЬМ ------------------------
+//  films.forEach (function(a,index) {
+//     if (index===1) {
+//         console.log(`${a.title} ${a.director} ${a.year}`);
+        
+//     }
+//  });
+
+        // * ----------------------------- ТРЕТИЙ ФИЛЬМ ----------------
+// films.forEach (function(a,index) {
+//     if(index===2) {
+//         console.log(`${a.title} ${a.director} ${a.year}`);
+        
+//     }
+// });
+
+            // * ------------------ ТОЛЬКО НАЗВАНИЕ -----------------
+// films.forEach(function(a) {
+//     console.log(`${a.title}`)
+// });
+
+             // * -------------------- ТОЛЬКО РЕЖИССЕР --------------------
+// films.forEach(function(a){
+// console.log(`${a.director}`)
+// });
+
+                //* -------------------- ВТОРОЙ ФИЛЬМ ГОД-----------------------
 // films.forEach(function(a,index){
 //     if(index===2){
 //         console.log(`${a.year}`)
@@ -81,50 +110,32 @@
 // });
 
 
-// films.forEach(function(a){
-// console.log(`${a.director}`)
-// });
-// films.forEach(function(a) {
-//     console.log(`${a.title}`)
-// });
-
-// Список всех фильмов
-// films.forEach(function(a){
-//     console.log(`${a.title} ${a.director} ${a.year}`)
-// });
- 
-// Первый фильм
-// films.forEach (function(a,index) {
-// if (index===0) {
-//     console.log(`${a.title} ${a.director} ${a.year}`);
-// }
-// });
-// Второй фидьм
-//  films.forEach(function (b,index) {
-//     if(index===1) {
-//         console.log(`${b.director} ${b.year} ${b.title}`)
-//     } 
-//  });
-
-// Третий фильм
-// films.forEach(function(c,index){
-//     if(index===2) {
-//         console.log(`${c.year} ${c.title} ${c.director}`)
-//     }
-// });
 
 
-// const numbers = [1, 2, 3, 4, 4 ,6]
+
+
+
+
+     // *const numbers = [1, 2, 3, 4, 4 ,6]
+
+                   // *------------------ СЛОЖЕНИЕ ВСЕХ ЭЛЕМЕНТЫ------------------
 // let sum=0;
 // numbers.forEach(function(number) {
-// sum +=number;
-// });
+// sum +=number;});
 // console.log(sum);
 
-// const numbers = [3 ,3 , 4, 5 ,6];
-// let sum=0;
+                   //* ---------------------- ВЫЧЕТАНИЕ ВСЕХ ЭЛЕМЕНТЫ --------------------
+
+// let sum= 0;
 // numbers.forEach(function(a) {
-// sum -=a;
+// sum -=a});
+// console.log(sum);
+
+                    //* ------------------- УМНОЖИТЬ ВСЕ ЭЛЕМЕНТЫ -----------------
+
+// let sum =0;
+// numbers.forEach (function (a) {
+//     sum *=a;
 // });
 // console.log(sum);
 
