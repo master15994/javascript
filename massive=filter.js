@@ -57,14 +57,9 @@ const movies = [
 ];
 
 
-// const film = movies.filter (a => a.genre.includes('c'));
-// console.log(film);
 
-// const year1990 = movies.filter(a => a.year= 1990);
-// console.log(year1990);
 
-const title = movies.filter(a => a.title ===title);
-console.log(title);
+
 
                    //* --------------------------- ЭЛЕМЕНТ ПО БУКВЕ  R -----------------
 //  const filmR = movies.filter (a => a.title.includes('r'));
@@ -92,7 +87,11 @@ console.log(title);
 // const year_1990 = movies.filter (a => a.year < 2000);
 // console.log(year_1990);
                 
+// const film = movies.filter (a => a.genre.includes('c'));
+// console.log(film);
 
+// const year1990 = movies.filter(a => a.year= 1990);
+// console.log(year1990);
 
 
 
