@@ -1,11 +1,79 @@
+let kite = 'Привет';
 
-// const cars = ['Honda', 'Audi', 'Mers', 'Gelik', 'BWV'];
+console.log(kite.toUpperCase());
+console.log(kite.toLocaleLowerCase());
+
+// for (const chram of kite) {
+//   console.log(chram);
+
+// let firstLet = kite[2];
+// console.log(firstLet);
+
+// function User (name){
+//    this.name=name;
+//     this.age=88;
+//     this.male='male';
+
+// };
+// console.log(new User('Rex'));
+// console.log(new User('san'));
+
+// Написать функцию, проверяет год фильма, и если он выше 2000, добавляет в новый массив с названием newFilms,
+//  если старше 1990, но младше 2000 - middle
+// middleFilms, а остальные будут в oldFilms
+// 2. Функция возвращает массив, в котором больше всего фильмов
+
+// const movies = [
+//   { title: 'Inception', year: 2010, genre: 'sci-fi' },
+//   { title: 'The Dark Knight', year: 2008, genre: 'action' },
+//   { title: 'The Shawshank Redemption', year: 1994, genre: 'drama' },
+//   { title: 'Pulp Fiction', year: 1994, genre: 'crime' },
+//   { title: 'The Godfather', year: 1972, genre: 'crime' },
+//   { title: 'Forrest Gump', year: 1994, genre: 'drama' },
+//   { title: 'The Matrix', year: 1999, genre: 'sci-fi' },
+//   { title: 'Goodfellas', year: 1990, genre: 'crime' },
+// ];
+
+// function foo() {
+//   const newFilms = [];
+//   const middleFilms = [];
+//   const oldFilms = [];
+
+//   movies.forEach(film => {
+//     if (film.year > 2000) {
+//       newFilms.push(film);
+//     } else if (film.year >= 1990 && film.year < 2000) {
+//       middleFilms.push(film);
+//     } else {
+//       oldFilms.push(film);
+//     }
+//   });
+//   if (
+//     newFilms.length > middleFilms.length &&
+//     newFilms.length > oldFilms.length
+//   ) {
+//     return newFilms;
+//   }
+
+//   if (
+//     middleFilms.length > oldFilms.length &&
+//     middleFilms.length > newFilms.length
+//   ) {
+//     return middleFilms;
+//   } else {
+//     return oldFilms;
+//   }
+// }
+// foo();
+// console.log(foo());
+
+// const cars = ['Honda', 'Audi', 'Mers', 'Geli k', 'BWV'];
 
 // let obj = { ...cars };
 // console.log(cars);
 // console.log (obj);
 
-let nums = [1,2,1,2,3,4,5,7,5,3,1,3,5,5,5,5,2,2,,3,];
+// let nums = [1,2,1,2,3,4,5,7,5,3,1,3,5,5,5,5,2,2,,3,];
 
 // let divide = nums.reduce (( x,y ) => x/y);
 // console.log(divide);
@@ -13,15 +81,11 @@ let nums = [1,2,1,2,3,4,5,7,5,3,1,3,5,5,5,5,2,2,,3,];
 // let multi = nums.reduce(( x,y) => x*y);
 // console.log(multi);
 
-
 // let sum = nums.reduce((x,y) => x+y);
 // console.log(sum);
 
 // let minus = nums.reduce((x,y) => x-y);
 // console.log(minus);
-
-
-
 
 // let fruits = [
 //   {
@@ -67,6 +131,3 @@ let nums = [1,2,1,2,3,4,5,7,5,3,1,3,5,5,5,5,2,2,,3,];
 
 // fruits.forEach((fruit) => { fruit.id +1});
 // console.log(fruits);
-
-
-

@@ -45,7 +45,7 @@
 // Используя метод filter(), выберите из массива только фильмы, выпущенные после 2000 года
 
 
-const movies = [
+/* const movies = [
   { title: 'Inception', year: 2010, genre: 'sci-fi' },
   { title: 'The Dark Knight', year: 2008, genre: 'action' },
   { title: 'The Shawshank Redemption', year: 1994, genre: 'drama' },
@@ -55,7 +55,7 @@ const movies = [
   { title: 'The Matrix', year: 1999, genre: 'sci-fi' },
   { title: 'Goodfellas', year: 1990, genre: 'crime' }
 ];
-
+*/
 
 
 
