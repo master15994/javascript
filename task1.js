@@ -1,7 +1,41 @@
-let kite = 'Привет';
+let num = ['Gap', 'tex'];
+num.shift();
+console.log(num);
 
-console.log(kite.toUpperCase());
-console.log(kite.toLocaleLowerCase());
+// let nam = [
+//   'Hate',
+//   {
+//     name: 'carl',
+//     age: 'show',
+//     type: 'bet',
+//   },
+//   true,
+//   function () {
+//     console.log('HI Lack');
+//   },
+// ];
+
+// console.log(nam.sort());
+
+// let ret = 'freemoney';
+// console.log(ret.toLocaleUpperCase());
+
+// let num = 233 + '233';
+// console.log(num);
+
+// let ret = 'freemoney';
+// let letter = ret[4];
+// console.log(letter);
+
+// let fls = 'флилансер';
+// let rext = ` Привет! Я ${fls}`;
+
+// console.log(rext);
+
+// let kite = 'Привет';
+
+// console.log(kite.toUpperCase());
+// console.log(kite.toLocaleLowerCase());
 
 // for (const chram of kite) {
 //   console.log(chram);
@@ -23,49 +57,51 @@ console.log(kite.toLocaleLowerCase());
 // middleFilms, а остальные будут в oldFilms
 // 2. Функция возвращает массив, в котором больше всего фильмов
 
-// const movies = [
-//   { title: 'Inception', year: 2010, genre: 'sci-fi' },
-//   { title: 'The Dark Knight', year: 2008, genre: 'action' },
-//   { title: 'The Shawshank Redemption', year: 1994, genre: 'drama' },
-//   { title: 'Pulp Fiction', year: 1994, genre: 'crime' },
-//   { title: 'The Godfather', year: 1972, genre: 'crime' },
-//   { title: 'Forrest Gump', year: 1994, genre: 'drama' },
-//   { title: 'The Matrix', year: 1999, genre: 'sci-fi' },
-//   { title: 'Goodfellas', year: 1990, genre: 'crime' },
-// ];
+const movies = [
+  { title: 'Inception', year: 2010, genre: 'sci-fi' },
+  { title: 'The Dark Knight', year: 2008, genre: 'action' },
+  { title: 'The Shawshank Redemption', year: 1994, genre: 'drama' },
+  { title: 'Pulp Fiction', year: 1994, genre: 'crime' },
+  { title: 'The Godfather', year: 1972, genre: 'crime' },
+  { title: 'Forrest Gump', year: 1994, genre: 'drama' },
+  { title: 'The Matrix', year: 1999, genre: 'sci-fi' },
+  { title: 'Goodfellas', year: 1990, genre: 'crime' },
+];
 
-// function foo() {
-//   const newFilms = [];
-//   const middleFilms = [];
-//   const oldFilms = [];
+function foo = 
+const newFilms = [];
+const middleFilms = [];
+const oldFilms = [];
 
-//   movies.forEach(film => {
-//     if (film.year > 2000) {
-//       newFilms.push(film);
-//     } else if (film.year >= 1990 && film.year < 2000) {
-//       middleFilms.push(film);
-//     } else {
-//       oldFilms.push(film);
-//     }
-//   });
-//   if (
+movies.forEach(film => {
+  if (
+    middleFilms.length > oldFilms.length &&
+    middleFilms.length > newFilms.length
+  ) {
+    return middleFilms;
+  } else {
+    return oldFilms;
+  }
+});
+foo();
+console.log(foo());
+
+// movies.forEach(film => {
+//   if (film.year > 2000) {
+//     newFilms.push(film);
+//   } else if (film.year >= 1990 && film.year < 2000) {
+//     middleFilms.push(film);
+//   } else {
+//     oldFilms.push(film);
+//   }
+// });
+// }
+//  movies.forEach(film => {
 //     newFilms.length > middleFilms.length &&
 //     newFilms.length > oldFilms.length
 //   ) {
 //     return newFilms;
 //   }
-
-//   if (
-//     middleFilms.length > oldFilms.length &&
-//     middleFilms.length > newFilms.length
-//   ) {
-//     return middleFilms;
-//   } else {
-//     return oldFilms;
-//   }
-// }
-// foo();
-// console.log(foo());
 
 // const cars = ['Honda', 'Audi', 'Mers', 'Geli k', 'BWV'];
 

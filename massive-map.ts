@@ -4,8 +4,8 @@
 
             
 
-                
-const numbers = [1, 2, 3, 4, 5];
+              
+// const numbers = [1, 2, 3, 4, 5];
 
 
         //* ----------------------------------- Делим  значения каждого числа из массива ----------------------------
@@ -33,14 +33,14 @@ const numbers = [1, 2, 3, 4, 5];
 
             //* ----------------------------------- TASK ONE ----------------------------
 
-const names = ['Alice', 'Bob', 'Charlie','CARL , Антон', 'serge', 'KaTe', 'sImon'];
+const names = ['Alice', 'Bob', 'Charlie', 'CARL' , 'Антон', 'serge', 'KaTe', 'sImon'];
 
 
 
 
                 //* ------------------------------ Массив который содержит кол-во букв -----------------------
 // const num = names.map((a) => {
-//     return a.length;});
+// return a.length;});
 // console.log(num);
 
 
