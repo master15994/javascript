@@ -34,7 +34,7 @@ function milti() {
   document.getElementById('out').innerHTML = result;
 }
 
-function milti() {
+function divide() {
   let n1, n2, result;
 
   let num1 = document.getElementById('n1').value;
