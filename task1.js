@@ -1,6 +1,6 @@
-let num = ['Gap', 'tex'];
-num.shift();
-console.log(num);
+// let num = ['Gap', 'tex'];
+// num.shift();
+// console.log(num);
 
 // let nam = [
 //   'Hate',
