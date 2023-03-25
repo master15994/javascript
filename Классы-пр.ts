@@ -8,61 +8,79 @@
 // У одного из дочерних классов, переопределить родительский метод.
 //(т.е. поменять вывод сообщения в консоли)
 
-const typeAnimal: IAnimal[] = [
-  {
-    name: 'tiger',
-    country: 'africa',
-    type: 'wild',
-    age: 21,
-  },
+// interface ICar {
+//   brand: string;
+//   color: string;
+//   year: number;
+// }
+// class Car implements ICar {
+//   brand!: string;
+//   color!: string;
+//   year!: number;
 
-  {
-    name: 'lion',
-    country: 'africa',
-    type: 'wild',
-    age: 15,
-  },
+//   constructor(data: ICar) {
+//     Object.assign(this, data);
+//   }
+// }
 
-  {
-    name: 'puppy',
-    country: 'new-zeland',
-    type: 'home',
-    age: 11,
-  },
+// let car = new Car({ brand: 'Tesla', color: 'red', year: 1945 });
+// console.log(car);
 
-  {
-    name: 'cat',
-    country: 'belarus',
-    type: 'home',
-    age: 2,
-  },
-];
+// const typeAnimal: IAnimal[] = [
+//   {
+//     name: 'tiger',
+//     country: 'africa',
+//     type: 'wild',
+//     age: 21,
+//   },
 
-interface IAnimal {
-  name: string;
-  country: string;
-  type: string;
-  age: number;
-}
+//   {
+//     name: 'lion',
+//     country: 'africa',
+//     type: 'wild',
+//     age: 15,
+//   },
 
-class Animal implements IAnimal {
-  name!: string;
-  country!: string;
-  type!: string;
-  age!: number;
+//   {
+//     name: 'puppy',
+//     country: 'new-zeland',
+//     type: 'home',
+//     age: 11,
+//   },
 
-  greeting() {
-    console.log();
-  }
+//   {
+//     name: 'cat',
+//     country: 'belarus',
+//     type: 'home',
+//     age: 2,
+//   },
+// ];
 
-  constructor(typeAnimal: IAnimal) {
-    Object.assign(this, typeAnimal);
-    this.greeting();
-  }
-}
+// interface IAnimal {
+//   name: string;
+//   country: string;
+//   type: string;
+//   age: number;
+// }
 
-let classAnimal = typeAnimal.map(animal => new Animal(animal));
-console.log(classAnimal);
+// class Animal implements IAnimal {
+//   name!: string;
+//   country!: string;
+//   type!: string;
+//   age!: number;
+
+//   greeting() {
+//     console.log();
+//   }
+
+//   constructor(typeAnimal: IAnimal) {
+//     Object.assign(this, typeAnimal);
+//     this.greeting();
+//   }
+// }
+
+// let classAnimal = typeAnimal.map(animal => new Animal(animal));
+// console.log(classAnimal);
 
 // const personObject: IHuman[] = [
 //   { name: 'Alex', age: 23, job: 'teacher' },
@@ -95,9 +113,9 @@ console.log(classAnimal);
 //     } else {
 //       this.isNewPerson = false;
 //     }
-//     // this.age = personObject.age;
-//     // this.job = personObject.job;
-//     // this.name = personObject.name;
+//     this.age = personObject.age;
+//      this.job = personObject.job;
+//      this.name = personObject.name;
 //   }
 // }
 // let personClasses = personObject.map(per => new Human(per));
